@@ -1,0 +1,74 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello WishController!{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+
+
+<div class="container">
+
+    <div class="row text-center mt-5">
+        <div class="col">
+
+            <h4>Ajouter une idée</h4><br>
+            <hr class="style1"><br>
+
+{#            ouverture du formulaire#}
+            {{ form_start(ideeForm) }}
+
+            <div class="row p-2">
+                <div class="col-2 text-end">
+                    {{ form_label(ideeForm.title) }} :
+                </div>
+                <div class="col-10">
+                    {{ form_widget(ideeForm.title) }}
+                </div>
+            </div>
+
+            <div class="row p-2">
+                <div class="col-2 text-end">
+                    {{ form_label(ideeForm.description) }} :
+                </div>
+                <div class="col-10">
+                    {{ form_widget(ideeForm.description) }}
+                </div>
+            </div>
+
+            <div class="row p-2">
+                <div class="col-2 text-end">
+                    {{ form_label(ideeForm.author) }} :
+                </div>
+                <div class="col-10">
+                    {{ form_widget(ideeForm.author) }}
+                </div>
+            </div>
+
+            <div class="row p-2">
+                <div class="col-2 text-end">
+                    {{ form_label(ideeForm.category) }} :
+                </div>
+                <div class="col-10">
+                    {{ form_widget(ideeForm.category) }}
+                </div>
+            </div>
+
+            <div class="p-5">
+                {{ form_widget(ideeForm.Ajouter) }}
+            </div>
+
+            {#            fermeture du formulaire#}
+            {{ form_end(ideeForm) }}
+
+{#            submit button#}
+
+
+        </div>
+    </div>
+
+</div>
+{% endblock %}

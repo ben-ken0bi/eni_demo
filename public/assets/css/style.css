@@ -1,0 +1,37 @@
+body * {
+    font-family: 'Roboto', sans-serif;
+}
+
+header * {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background-color: #8fecf8;
+    border-radius: 15px;
+}
+
+.btnAccueil{
+    font-size: 25px;
+    color: black;
+}
+
+.btnAbout{
+    font-size: 25px;
+    color: black;
+}
+
+.btnAjouter{
+    font-size: 25px;
+    color: black;
+}
+
+header * {
+    padding: 5px;
+}
+
+footer *{
+    background-color: #404040;
+    color: white;
+}
+
+hr.style1{
+    border-top: 1px solid #8c8b8b;
+}

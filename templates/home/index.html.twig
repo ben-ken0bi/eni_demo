@@ -1,0 +1,101 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bucket List{% endblock %}
+
+{% block body %}
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+    {#  Set var city to Ouagadougou  #}
+{#    {% set city = "Ouagadougou" %}#}
+{#    {% set products = ["beurre sucré", "pizza ananas", "crevette au nutela", "pinte heineken"] %}#}
+{#    {% set user={#}
+{#        'name' : 'GERARD',#}
+{#        'age' : 66,#}
+{#        'alcoholic' : true,#}
+{#        'fou' : true,#}
+{#    } %}#}
+
+{#<div class="example-wrapper">#}
+{#    <h1>Hello</h1>#}
+
+{#    {{ city }}#}
+
+{#    <br>#}
+
+{#    #}{# afficher le contenu de la case 3 du tableau, donc index 2   #}
+{#    Tableau index 2: {{ products[2] }}#}
+
+{#    <br>#}
+
+{#    #}{#  afficher chaque éléments du tableau  #}
+{#    <ul>#}
+{#    {% for product in products %}#}
+{#        <li>{{ product }}</li>#}
+{#    {% endfor %}#}
+{#    </ul>#}
+
+{#    <br>#}
+
+{#    {% if city == "Ouagadougou" %}#}
+{#        <p>Condition remplie</p>#}
+{#    {% else %}#}
+{#        <p>La ville n'est pas Ouagadougou</p>#}
+{#    {% endif %}#}
+
+{#    <br>#}
+
+{#    Afficher l'info de GERARD (dictionnaire)#}
+{#    <div>#}
+{#        <ul>#}
+{#            <li>Nom: {{ user.name }}</li>#}
+{#            <li>Age: {{ user.age }}</li>#}
+{#            {% if user.fou %}#}
+{#            <li>Je suis fou pcq j'aime le JS</li>#}
+{#            {% endif %}#}
+{#            {% if user.alcoholic %}#}
+{#                <li>Bonjour, je suis Gerard et je suis alcoholic</li>#}
+{#            {% endif %}#}
+{#        </ul>#}
+{#    </div>#}
+
+{#    <ul>#}
+{#        <li>Your controller at <code><a href="{{ 'C:/wamp64/www/eni_demo/src/Controller/HomeController.php'|file_link(0) }}">src/Controller/HomeController.php</a></code></li>#}
+{#        <li>Your template at <code><a href="{{ 'C:/wamp64/www/eni_demo/templates/home/about_us.twig'|file_link(0) }}">templates/home/about_us.twig</a></code></li>#}
+{#    </ul>#}
+{#</div>#}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+            <h3 class="mt-5 text-center">Accueil</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 p-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A atque cupiditate laboriosam perspiciatis tempora. Ad adipisci, autem cupiditate expedita, facere fugit maiores necessitatibus nostrum officia optio, quasi repellendus veritatis voluptates?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae consequatur, corporis doloribus ea hic magnam magni nihil nisi numquam quas quasi quibusdam reiciendis repellat, similique tenetur ullam, vel vitae.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque beatae blanditiis, cumque delectus eveniet, exercitationem id illo itaque necessitatibus nobis obcaecati porro possimus, praesentium provident quod rem repudiandae tempore!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae deserunt incidunt minima praesentium! Aperiam dicta fugit hic iusto, magnam nihil non pariatur quisquam quod quos ratione repellendus tempore voluptatum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam architecto asperiores assumenda beatae distinctio earum esse expedita iure mollitia nobis odit perferendis qui quo sequi ut vel voluptas, voluptatem!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid amet aut delectus eligendi, explicabo fugiat ipsam maxime nostrum provident quae quam quas quis ratione rem soluta voluptatem voluptates? Repudiandae, tempora.
+        </div>
+
+        <div class="col-6 p-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nihil optio repudiandae, saepe voluptate voluptatibus. Dolor, nihil, pariatur? Amet aut commodi cum hic, molestiae qui saepe ut. Ipsum, repellendus, sed!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio nam nisi omnis quasi quia recusandae, sit voluptate? Ab aut delectus enim ipsum nam, odit quisquam reprehenderit, tempora tempore totam, voluptates!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolore laudantium perferendis reprehenderit ut. Animi asperiores aspernatur consequuntur cum debitis earum in iste natus nemo, qui sint vel. Aperiam, voluptatem.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ipsa labore magni necessitatibus nobis placeat porro provident, sed, sequi temporibus, voluptas voluptatibus. Ab inventore magnam nobis, quasi quidem tempore voluptatum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque autem dignissimos dolore dolorum, ea earum excepturi fuga harum, inventore nisi nobis nulla odit pariatur provident quos ratione reiciendis ut veritatis.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eaque in ipsa nisi perferendis quos, ut! Aliquid fuga, impedit necessitatibus nemo omnis quaerat quia quod reiciendis saepe, sit tenetur veniam.
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}
